@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+main {
+    padding-top: 2rem;
+}
+
+h2 {
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+a {
+    font-size: 1.3rem;
+    color: #FFD700;
+}

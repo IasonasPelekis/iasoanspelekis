@@ -1,0 +1,91 @@
+:root {
+    --standout: #FFD700;
+    --titles: #00d4d4;
+}
+
+.light {
+    --standout: #c7a900;
+    --titles: #004a94;
+}
+
+main {
+    width: 80%;
+    margin: 3rem auto;
+    text-align: center;
+    color: var(--color);
+}
+
+main p {
+    margin: 0 auto 30px auto;
+    width: 60%;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+.projects-container {
+    margin: 1rem;
+    padding: 1rem;
+    width: 100%;
+    background-color: var(--container-bg);
+    border-radius: 10px;
+}
+
+.project {
+    margin-bottom: 1rem;
+    border: 1rem solid #c648fc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-container .title {
+    color: var(--titles);
+    margin-bottom: 5px;
+}
+
+.projects-container .title:not(:first-child) {
+    margin-top: 2rem;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.desc h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--standout); /* Gold */
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.desc h3 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.desc .features-list {
+    max-width: 400px;
+    margin: 1.5rem auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.desc .features-list li {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.desc, .image {
+    width: 49.4%;
+}
+
+.image img {
+    width: 100%;
+}

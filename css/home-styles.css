@@ -1,0 +1,55 @@
+main {
+    width: 80%;
+    margin: 3rem auto;
+    text-align: center;
+    color: var(--color);
+}
+
+main h1 {
+    font-size: 3rem;
+}
+
+main h2 {
+    color: #0c121c;
+    margin: 1rem 0;
+}
+
+main p {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+.languages-container {
+    margin: 1rem;
+    padding: 1rem;
+    width: 90%;
+    background-color: var(--container-bg);
+    border-radius: 8px;
+}
+
+.languages {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.languages li {
+    border-radius: 8px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24.2%;
+    background-color: var(--container-fg);
+}
+
+.languages li img {
+    height: 200px;
+    overflow: hidden;
+}
