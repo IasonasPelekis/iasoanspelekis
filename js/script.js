@@ -83,11 +83,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentPage = path.split('/').pop();
 
     // Apply a red/orange underline on the current page
-    // "portfolio" comparison is for when the page is first loaded (on github)
     links.forEach(link => {
-        console.log(link.dataset.page);
-        if(link.dataset.page === currentPage || link.dataset.page === "portfolio") {
-        console.log(link.dataset.page + " did");
+        if(link.dataset.page === currentPage) {
             link.classList.add('active');
         }
     });
